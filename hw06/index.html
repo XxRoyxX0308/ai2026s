@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      點與點的交織，線與線的串聯，這次的文生影片作業，更像是一場科技與美學的編織實驗。在 ComfyUI 的畫布上，我們借助 Civitai 創作者們的智慧結晶，用節點理出邏輯，用想像力填滿框架。過去隱身在黑盒子裡的 AI 運作流程，在工作流成形的過程中變得具象而迷人。當最終的畫面開始流動、影像成功誕生，那份驚喜不僅止於視覺，更是親手觸碰未來科技的悸動。
     </div>
   </div>
 
@@ -169,22 +169,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - Comfy UI 環境設定完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 生成角色的圖片</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 生成完整角色動畫</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,13 +195,42 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-12 twenty" style="background-color:#00AC48;">
+      <figcaption>Comfy UI 環境設定完成</figcaption>
+      <a href="https://civitai.com/models/1318945/one-obsession">CheckPoint: One obsession</a><br>
+      <a href="https://civitai.com/models/599757/velvets-mythic-fantasy-styles-or-flux-pony-illustrious-zit-anima">LoRA: Velvet's Mythic Fantasy Styles</a><br>  
+      <img src="1.png"  width="100%"><br>
     </div>
   </div>
+  
+  <div class="row hw12 bottomrow">
+    <div class="col twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片</figcaption>
+      <img src="2.png"  width="100%"><br>
+  </div>
 
+  
+  <div class="row hw12 bottomrow">
+    <div class="col twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫</figcaption>
+      <img src="3.gif" width="100%"><br>
+      <td> 使用提示詞:
+          <p>"0" :"neon cyberpunk street, sleek leather jacket, heavy rain, holographic billboards, intense glare",</p>
+          <p>"10" :"neon cyberpunk street, sleek leather jacket, heavy rain, holographic billboards, intense glare",</p>
+          <p>"20" :"neon cyberpunk street, sleek leather jacket, heavy rain, holographic billboards, intense glare",</p>
+          <p>"30" :"sun-drenched desert ruins, flowing nomad robes, swirling sandstorm, ancient staff, focused expression",</p>
+          <p>"40" :"sun-drenched desert ruins, flowing nomad robes, swirling sandstorm, ancient staff, focused expression",</p>
+          <p>"50" :"sun-drenched desert ruins, flowing nomad robes, swirling sandstorm, ancient staff, focused expression",</p>
+          <p>"60" :"mystical glowing forest, silver elven armor, floating wisps, crystal bow, calm demeanor",</p>
+          <p>"70" :"mystical glowing forest, silver elven armor, floating wisps, crystal bow, calm demeanor",</p>
+          <p>"80" :"mystical glowing forest, silver elven armor, floating wisps, crystal bow, calm demeanor",</p>
+          <p>"90" :"cosmic starlight void, celestial silk gown, swirling nebulae, floating crystal orb, serene smile",</p>
+          <p>"100" :"cosmic starlight void, celestial silk gown, swirling nebulae, floating crystal orb, serene smile",</p>
+          <p>"110" :"cosmic starlight void, celestial silk gown, swirling nebulae, floating crystal orb, serene smile"</p>
+      </td>
+    </div>
+  </div>
+  <!-- ------------------------------------------------>
   <!-- ------------------------------------------------>
 
   <!-- ------------------------------------------------>
@@ -252,4 +281,3 @@
 
 </body>
 </html>
-
